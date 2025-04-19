@@ -1,4 +1,4 @@
-# Blackjack Casino Game
+# BlackJack Casino Game
 
 A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that you can host on GitHub Pages.
 
