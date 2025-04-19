@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Casino</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="casino-table">
+        <header>
+            <h1>Blackjack</h1>
+            <div class="balance-container">
+                <span class="balance-label">Balance:</span>
+                <span id="balance" class="balance-amount">$500</span>
+            </div>
+        </header>
+
+        <div class="game-container">
+            <div class="dealer-section">
+                <h2>Dealer</h2>
+                <div id="dealer-cards" class="cards"></div>
+                <div id="dealer-score" class="score"></div>
+            </div>
+
+            <div class="player-section">
+                <h2>Player</h2>
+                <div id="player-cards" class="cards"></div>
+                <div id="player-score" class="score"></div>
+            </div>
+
+            <div class="controls">
+                <div class="bet-controls">
+                    <button id="bet-10" class="bet-btn">$10</button>
+                    <button id="bet-25" class="bet-btn">$25</button>
+                    <button id="bet-50" class="bet-btn">$50</button>
+                    <button id="bet-100" class="bet-btn">$100</button>
+                    <div class="current-bet">
+                        <span>Current Bet: $</span>
+                        <span id="current-bet">0</span>
+                    </div>
+                </div>
+
+                <div class="game-controls">
+                    <button id="deal-btn" class="action-btn">Deal</button>
+                    <button id="hit-btn" class="action-btn" disabled>Hit</button>
+                    <button id="stand-btn" class="action-btn" disabled>Stand</button>
+                    <button id="double-btn" class="action-btn" disabled>Double</button>
+                </div>
+            </div>
+
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
