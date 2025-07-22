@@ -4,8 +4,8 @@ A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that
 
 ## Features
 
-- 🎰 Casino-style interface with elegant design
-- 💵 Money tracking (starts at $500)
+- 🎰 Casino style interface
+- 💵 Money tracking 
 - 🃏 Standard Blackjack rules:
   - Blackjack pays 3:2
   - Dealer stands on soft 17
