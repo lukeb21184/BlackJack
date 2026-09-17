@@ -4,7 +4,7 @@ A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that
 
 ## Features
 
-- Casino style interface
+- Casino style GUI
 - Money tracking 
 - Standard Blackjack rules:
   - Blackjack pays 3:2
