@@ -13,7 +13,7 @@ A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that
   - Automatic win/lose detection
 - Game controls:
   - Bet buttons ($10, $25, $50, $100)
-  - Deal/Hit/Stand/Double actions
+  - Deal/Hit/Stand  actions
 - Responsive design works on desktop and mobile
 - Score tracking for player and dealer
 
