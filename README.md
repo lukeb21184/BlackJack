@@ -26,5 +26,4 @@ A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that
    - "Double" to double your bet (available on first move)
 4. The dealer will reveal their cards and play their turn
 5. Win/lose is automatically determined
-6. Click "New Game" to play again
 
