@@ -14,7 +14,6 @@ A fully functional Blackjack (21) game built with HTML, CSS, and JavaScript that
 - Game controls:
   - Bet buttons ($10, $25, $50, $100)
   - Deal/Hit/Stand  actions
-- Responsive design works on desktop and mobile
 - Score tracking for player and dealer
 
 ## How to Play
